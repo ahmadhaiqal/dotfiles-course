@@ -10,6 +10,10 @@
   ],
   "env": {
     "SSH_AUTH_SOCK": "/ssh-agent"
-  }
+  },
+  "hostConfig": {
+    "dns": ["1.1.1.1", "8.8.8.8"]
+  },
+  "remoteUser": "root"
 }
 
