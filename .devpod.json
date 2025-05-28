@@ -1,0 +1,15 @@
+{
+  "name": "yubikey-ssh",
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "mounts": [
+    {
+      "source": "/run/user/1000/gnupg/S.gpg-agent.ssh",
+      "target": "/ssh-agent",
+      "type": "bind"
+    }
+  ],
+  "env": {
+    "SSH_AUTH_SOCK": "/ssh-agent"
+  }
+}
+
