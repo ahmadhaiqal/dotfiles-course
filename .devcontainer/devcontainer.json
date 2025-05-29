@@ -12,7 +12,9 @@
 
 	"remoteEnv": {
 		"MY_VARIABLE": "Ahmad Haiqal"
-	}
+	},
+  
+  "runArgs": ["--dns", "8.8.8.8"]
 
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
