@@ -1,5 +1,4 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
-<<<<<<< HEAD
 
 # Note: PS1 and umask are already set in /etc/profile. You should not
 # need this unless you want different defaults for root.
@@ -130,7 +129,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
->>>>>>> 301181a (re-add chezmoi)
 # bash theme - partly inspired by https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme
 __bash_prompt() {
     local userpart='`export XIT=$? \
@@ -175,9 +173,6 @@ if [[ "$TERM" == "xterm" ]]; then
     # Append to PROMPT_COMMAND to call precmd before displaying the prompt
     PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND; }precmd"
 fi
-<<<<<<< HEAD
-=======
 export PATH="$HOME/.local/bin:$PATH"
 
 # Ahmad Haiqal additional 
->>>>>>> 301181a (re-add chezmoi)
