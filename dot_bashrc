@@ -175,4 +175,6 @@ if [[ "$TERM" == "xterm" ]]; then
 fi
 export PATH="$HOME/.local/bin:$PATH"
 
+set -o vi
+
 # Ahmad Haiqal additional 
